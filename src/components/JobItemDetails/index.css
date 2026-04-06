@@ -1,0 +1,107 @@
+.job-item-details-container {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 90vh;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.job-details-success-container {
+  width: 90%;
+  max-width: 1000px;
+}
+
+.job-details-card {
+  background-color: #272727;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.logo-title-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-title-container img {
+  width: 80px;
+}
+
+.location-package-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.location-package-container div {
+  display: flex;
+  gap: 20px;
+}
+
+.description-visit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.description-visit-container a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.skills-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 30%;
+}
+
+.skills-list img {
+  width: 40px;
+}
+
+.life-at-company-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.life-at-company-container img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.similar-jobs-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.similar-job-item {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+  width: 31%;
+}
+
+.similar-job-item img {
+  width: 60px;
+  margin-bottom: 10px;
+}

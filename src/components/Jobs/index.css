@@ -1,0 +1,166 @@
+.jobs-route-container {
+  display: flex;
+  min-height: 90vh;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+}
+
+.side-bar {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-container img {
+  width: 60px;
+}
+
+.profile-name {
+  color: #4f46e5;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.profile-bio {
+  color: #2c364c;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.filter-heading {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.filters-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.filters-list li {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.jobs-container {
+  width: 75%;
+}
+
+.search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  flex-grow: 1;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #475569;
+  color: white;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #272727;
+  border: 1px solid #475569;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.loader-container, .failure-container, .no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+}
+
+.failure-container img, .no-jobs-container img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.failure-container button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.jobs-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.job-item {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.job-link {
+  text-decoration: none;
+  color: white;
+}
+
+.company-logo-container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.company-logo-container img {
+  width: 60px;
+}
+
+.job-title {
+  font-size: 20px;
+}
+
+.job-rating {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.location-type-salary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.location-type-salary-container div {
+  display: flex;
+  gap: 20px;
+}
+
+.description-heading {
+  font-size: 18px;
+  margin: 15px 0;
+}
